@@ -1,6 +1,5 @@
 <?php
 
-use LDAP\Result;
 
 $conn = new mysqli("localhost","root","arpon007","sundarban");
 
