@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            text-align: center;
+        }
+        button {
+            display: flex;
+            margin: auto;
+        }
+    </style>
+    <title>Attendance</title>
+</head>
+<body>
+    <form action="2.php" method="post">
+        <table border="1" cellpadding="8">
+    <tr>
+        <th>Attendees</th>
+        <th>Seat Capacity</th>
+        <th>Ticket Price (BDT)</th>
+    </tr>
+    <tr>
+        <td><input type="number" name="att" required></td>
+        <td><input type="number" name="cost" required></td>
+        <td><input type="number" name="cap" required></td>
+    </tr>
+</table>
+<br>
+<button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
