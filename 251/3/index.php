@@ -31,7 +31,7 @@ echo "<br>Low salary employees updated to rating C.<br>";
 $sql= "
 update employees
 set Salary= Salary + 5000
-where Salary <50000 AND (Salary + 5000) <=60000
+where Salary  > 50000 AND (Salary + 5000) <=60000
 ";
 $conn->query($sql);
 echo "Bonus applied successfully.<br>";
