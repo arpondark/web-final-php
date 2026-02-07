@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli("localhost","root","arpon007","uiutech_final");
+$conn=new mysqli("localhost","root","","uiutech_final");
 //3rd one is the passeord . keep it blank f you are using xamp
 if($conn->connect_error){
     die("Connection failed: " . $conn->connect_error);
